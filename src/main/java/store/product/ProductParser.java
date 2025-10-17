@@ -2,6 +2,9 @@ package store.product;
 
 import java.util.List;
 
+import store.product.ProductIn;
+import store.product.ProductOut;
+
 public class ProductParser {
 
     public static Product to(ProductIn in) {

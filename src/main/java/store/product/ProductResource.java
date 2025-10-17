@@ -9,6 +9,10 @@ import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.server.ResponseStatusException;
 import org.springframework.web.servlet.support.ServletUriComponentsBuilder;
 
+import store.product.ProductController;
+import store.product.ProductIn;
+import store.product.ProductOut;
+
 @RestController
 public class ProductResource implements ProductController {
 
