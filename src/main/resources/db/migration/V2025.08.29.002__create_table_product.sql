@@ -1,6 +1,6 @@
-CREATE TABLE account
+CREATE TABLE product
 (
-    id varchar(36) NOT NULL,
+    id varchar(36) NOT NULL PRIMARY KEY,
     name varchar(255) NOT NULL,
     price decimal(10,2) NOT NULL,
     unit varchar(50) NOT NULL
