@@ -1,1 +1,1 @@
-CREATE INDEX account_email_idx ON account (email);
+CREATE INDEX product_name_idx ON product (name);
